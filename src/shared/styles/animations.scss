@@ -1,0 +1,16 @@
+:root {
+	--easing__out--cubic: cubic-bezier(0.33, 1, 0.68, 1);
+	--easing__out--back: cubic-bezier(0.34, 1.56, 0.64, 1);
+	--easing__in--back: cubic-bezier(0.36, 0, 0.66, -0.56);
+
+	--duration__longest: 2s;
+	--duration__long: 1s;
+	--duration__regular: .6s;
+	--duration__short: .3s;
+	--duration__shortest: .15s;
+
+	--delay__short: .15s;
+	--delay__medium: .3s;
+	--delay__long: .6s;
+	--delay__longest: 1s;
+}

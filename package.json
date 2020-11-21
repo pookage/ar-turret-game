@@ -1,0 +1,32 @@
+{
+  "name": "ar-turret-game",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack-dev-server --open --mode=development",
+    "build-prod": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.3",
+    "@babel/plugin-proposal-private-methods": "^7.10.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2017-object-entries": "0.0.5",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

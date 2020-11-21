@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+a, button, img {
+	display: inline-block;
+	max-width: 100%;
+	user-select: none;
+}
+
+h1, h2, h3 {
+	font-size: 1em;
+	font-weight: var(--font_weight__regular);
+}
+
+textarea, button, input {
+	-webkit-appearance: none;
+}

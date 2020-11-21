@@ -1,0 +1,11 @@
+:root {
+	--color__white: #ffffff;
+	--color__black: #000;
+	--color__positive: #55d322;
+	--color__negative: #d35555;
+	--color__neutral: #aaaaaa;
+	--color__text--dark: var(--color__black);
+	--color__text--light: var(--color__white);
+	--color__bg--light: var(--color__white);
+	--color__bg--dark: var(--color__black);
+}
